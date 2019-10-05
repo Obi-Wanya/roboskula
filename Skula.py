@@ -39,7 +39,7 @@ async def on_message(message):
         await message.channel.send(kv)
         await message.channel.send('Сейчас '+str(now))
 
-Bot.run(str(token)) #токен бота
+Bot.run('NjMwMDcwMzI1NzUyNzU4Mjgz.XZkdkg.Mg-f2JrEN2h7UxPbPjCJGN2sxKM') #токен бота
 
 #Ссылка для добавление бота на дс сервер:
 #https://discordapp.com/oauth2/authorize?client_id=630070325752758283&scope=bot&permissions=8
